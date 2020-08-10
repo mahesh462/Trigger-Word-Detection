@@ -5,7 +5,7 @@ Our trigger word will be "Activate." Every time it hears you say "activate," it 
 
 ## Data synthesis: Creating a speech dataset
 - A speech dataset should ideally be as close as possible to the application you will want to run it on.
-- In this case, we'd like to detect the word "activate" in working environments (library, home, offices, open-spaces ...).
+- In this case, we'd like to detect the word "activate" in working environments (library, home, offices, open-spaces etc).
 
 In the raw_data directory, subset of the raw audio files of the positive words, negative words, and background noise can be found. We will use these audio files to synthesize a dataset to train the model.
 - The "activate" directory contains positive examples of people saying the word "activate".
